@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="normalize.css" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preload" href="./fonts/gothampro.woff2" as="font" type="font/woff2" crossorigin />
+        <link rel="preload" href="./fonts/gothampro_bold.woff2" as="font" type="font/woff2" crossorigin />
+        <link rel="preload" href="./fonts/gothampro_medium.woff2" as="font" type="font/woff2" crossorigin />
+
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <div class="header__offer container">
+                    <p class="header__offer-title">🇿🇦 SPECIAL OFFER + FREE DELIVERY 2-4 DAYS IN SA 🇿🇦</p>
+                </div>
+                <div class="header__main">
+                    <img class="header__logo" src="./img/img.svg" alt="company logo" />
+                    <p class="header__sub">orthopedic slippers</p>
+                </div>
+            </header>
+            <main class="main">
+                <section class="hero">
+                    <div class="hero__wrapper">
+                        <picture>
+                            <source class="hero__image" srcset="./img/hero-bg.webp" type="image/webp" />
+                            <img class="hero__image" src="./img/hero-bg.jpg" alt="hero" />
+                        </picture>
+                        <div class="hero__countdown">
+                            <p class="hero__countdown-title">limited offer</p>
+                            <p class="hero__countdown-timer">04:51:16</p>
+                        </div>
+                        <div class="hero__price">
+                            <p class="hero__price-old">R&nbsp;250.00</p>
+                            <p class="hero__price-current">R&nbsp;160.00</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="product">
+                    <div class="product__header">
+                        <div class="product__runner-raiting">Excellent 4.8/5</div>
+                        <div class="product__runner">
+                            <img src="./img/product-runner.svg" alt="product runner logo" class="product__runner-logo" />
+                        </div>
+                        <a href="#" class="product__runner-link">best selling</a>
+                    </div>
+                    <div class="product__body">
+                        <h1 class="product__title">Orthopedic Slippers</h1>
+                    </div>
+
+                    <div class="product__photos">
+                        <div class="product__preview">
+                            <img src="./img/black.jpg" alt="product photo" class="product__preview-img" />
+                        </div>
+                        <div class="product__thumbnails">
+                            <div class="product__thumbnail-image product__thumbnail-image--active">
+                                <img src="./img/black.jpg" alt="product thumb" />
+                            </div>
+                            <div class="product__thumbnail-image">
+                                <img src="./img/orange.jpg" alt="product thumb" />
+                            </div>
+                            <div class="product__thumbnail-image">
+                                <img src="./img/pink.jpg" alt="product thumb" />
+                            </div>
+                            <div class="product__thumbnail-image">
+                                <img src="./img/yellow.jpg" alt="product thumb" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product__descr-block">
+                        <p class="product__descr product__delivery"><span>Fast Delivery:</span> 2-4 days from SA 🇿🇦</p>
+                        <p class="product__descr product__location"><span>In Stock:</span> Shipping from Johannesburg 🇿🇦</p>
+                        <div class="product__raiting">
+                            <img src="./img/raiting.svg" alt="stars" />
+                            <p>(10)</p>
+                        </div>
+                    </div>
+
+                    <div class="product__options">
+                        <div class="product__option">
+                            <p class="product__option-title">Color</p>
+                            <div class="product__option-select">
+                                <select>
+                                    <option value="black">black</option>
+                                    <option value="orange">orange</option>
+                                    <option value="pink">pink</option>
+                                    <option value="yellow">yellow</option>
+                                </select>
+                                <img class="product__option-arrow" src="./img/select-chevron.svg" alt="select arrow" />
+                            </div>
+                        </div>
+                        <div class="product__option">
+                            <p class="product__option-title">Size</p>
+                            <div class="product__option-select">
+                                <select>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                                <img class="product__option-arrow" src="./img/select-chevron.svg" alt="select arrow" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="https://www.youtube.com" class="product__cta" target="_blank"> buy now </a>
+                </section>
+            </main>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>
