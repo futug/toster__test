@@ -570,6 +570,9 @@
   text-transform: uppercase;
   outline: none;
   cursor: pointer;
+  color: #000;
+  -moz-text-align-last: center;
+       text-align-last: center;
 }
 .product__option-arrow {
   position: absolute;
