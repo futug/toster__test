@@ -203,7 +203,7 @@
         overflow: hidden;
         @media (max-width: 390px) {
             width: 100%;
-            height: auto;
+            height: 100%;
         }
 
         &-img {
@@ -277,6 +277,11 @@
         font-size: 15.29px;
         line-height: 15px;
         align-items: center;
+
+        & img {
+            width: 86px;
+            height: 14px;
+        }
     }
 
     &__options {
